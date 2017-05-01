@@ -1,0 +1,351 @@
+/* Esta hoja de estilos fue creada el 26/04/17 a las 14:02 horas
+Esta hoja contiene todos los estilos que se necesitarán para el correcto display de esta página web */
+
+/*Estilos generales */
+html, body
+{
+  background-color: #FEF7F7;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Estilos de la barra de navegación */
+
+.navbar-default
+{
+  margin: 0px;
+}
+
+.navbar-default .container-fluid
+{
+  height: 110px;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav li
+{
+  left: 8%;
+  top: 40px;
+  padding-right: 45px;
+}
+
+/* Estilos del menu principal */
+
+#menu-principal
+{
+  margin-bottom: 20px;
+}
+
+#menu-principal .container-fluid
+{
+  background-color: #e63f52 !important;
+  height: 90px;
+}
+
+#menu-principal .navbar-nav
+{
+  padding: 0px;
+  width: 100%;
+}
+
+#menu-principal .navbar-nav li
+{
+  top: 0px;
+  left: 0px;
+  width: 10%;
+  padding: 0px;
+}
+
+#menu-principal .navbar-nav li .g1
+{
+  margin-left: 0px;
+}
+
+#menu-principal .navbar-nav li .g2
+{
+  margin-left: 20px;
+}
+
+#menu-principal .navbar-nav li .g3
+{
+  margin-left: 25px;
+}
+#menu-principal .navbar-nav li .g4
+{
+  margin-left: 27%;
+}
+
+#menu-principal .navbar-nav li .g5
+{
+  margin-left: 17px;
+}
+
+#menu-principal .navbar-nav li .g6
+{
+  margin-left: 20px;
+}
+
+#menu-principal .navbar-nav li .g7
+{
+  margin-left: 2px;
+}
+
+#menu-principal .navbar-nav li .g8
+{
+  margin-left: 8px;
+}
+
+#menu-principal .navbar-nav li .g10
+{
+  margin-left: 20px;
+}
+
+#menu-principal .navbar-nav li a:hover
+{
+  background-color: #d02c30;
+}
+
+#menu-principal .navbar-nav li a p
+{
+  padding-top: 5px;
+  margin: 0px;
+  color: white;
+  font-size: 10px;
+}
+
+#menu-principal .navbar-nav li a .p9
+{
+  margin-left: 5px;
+}
+
+/* Estilos de la bienvenida */
+
+#bienvenida h1
+{
+  color: #555;
+}
+
+#bienvenida p
+{
+  color: #555;
+}
+
+#bienvenida a
+{
+  color: #e980a2;
+  text-decoration: none;
+}
+
+/* Estilos del todo-list */
+
+#todo-list .tareas
+{
+  list-style-type: none;
+  padding: 0px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#todo-list .tareas li
+{
+  position: relative;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+#todo-list .tareas li p
+{
+  position: relative;
+  display: inline-block;
+  left: 1%;
+  margin-bottom: 0px;
+}
+
+/* Estilos del anuncio de bodas */
+
+#anuncio .panel-body
+{
+  height: 400px;
+}
+
+#anuncio .anillo
+{
+  position: relative;
+  left: 11%;
+}
+
+#anuncio .faltandias
+{
+  position: relative;
+  font-size: 350%;
+  margin: 0px;
+  left: 33%;
+  bottom: 170px;
+}
+
+#anuncio .dias
+{
+  position: relative;
+  font-size: 100%;
+  margin: 0px;
+  left: 58%;
+  bottom: 210px;
+}
+
+#anuncio .novios
+{
+  position: relative;
+  font-size: 112%;
+  color: white;
+  margin: 0px;
+  left: 28%;
+  bottom: 170px;
+}
+
+#anuncio .boton1
+{
+  position: relative;
+  border: 0px;
+  background-image: none;
+  background-color: #f2d54d;
+  color: white;
+  left: 20%;
+  bottom: 70px;
+}
+
+#anuncio .boton1 a
+{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+#anuncio .boton2
+{
+  position: relative;
+  border: 0px;
+  background-image: none;
+  background-color: #f1678b;
+  color: white;
+  left: 20%;
+  bottom: 70px;
+}
+
+#anuncio .boton2 a
+{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Estilos de la sección de Inspiración */
+
+#inspiracion .link
+{
+  color: #e980a2 !important;
+  text-decoration: underline;
+}
+
+/* Estilos del resúmen */
+
+#resumen .panel-default .panel-heading
+{
+  background-image: none;
+  background-color: #e63f52;
+  color: white;
+}
+
+#resumen .panel-default .panel-body
+{
+  height: 268px;
+  padding-left: 10%;
+  padding-top: 15%;
+}
+
+/* Estilos de los proveedores */
+
+#proveedores h3 a
+{
+  font-size: 15px;
+  color: #e980a2;
+}
+
+/* Estilos del anuncio publicitario */
+
+#publicidads .imagen
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+/* Estilos de la seeción de todos los proveedores */
+
+#proveedores2 h3
+{
+  color: #e63f52;
+}
+
+#proveedores2 h3 a
+{
+  font-size: 15px;
+  color: #e980a2;
+}
+
+#proveedores2 h5 a
+{
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+#proveedores2 h5 a:hover
+{
+  color: #e63f52;
+}
+
+#proveedores2 .bajo
+{
+  padding-top: 39px;
+}
+
+/* Estilos de la sección de información */
+
+#informacion h5 a
+{
+  color: #555;
+  text-decoration: none;
+}
+
+#informacion h5 a:hover
+{
+  color: #e63f52;
+}
+
+#informacion .bajo
+{
+  padding-top: 17px;
+}
+
+/* Estilos del footer */
+#footer .container-fluid
+{
+  background-color: #ED456F;
+  color: #fff !important;
+  height: 48px !important;
+  padding-top: 10px;
+}
+
+#footer ul li
+{
+  text-decoration: none;
+  list-style: none;
+  color: white !important;
+  display: inline-block;
+}
+
+#footer ul li a
+{
+  text-decoration: none;
+  list-style: none;
+  color: white !important;
+}
